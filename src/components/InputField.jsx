@@ -5,7 +5,7 @@ export const InputField = ({text, handleInput, handleSubmit}) => {
           value={text}
           onChange={event => handleInput(event.currentTarget.value)}
         />
-        <button onClick={handleSubmit}>Add Todo</button>
+        <button onClick={handleSubmit} >Add Todo</button>
       </label>
     )
 }
